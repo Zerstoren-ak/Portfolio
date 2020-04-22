@@ -1,0 +1,510 @@
+<!doctype html>
+<html class="light" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta content="Portfolio, Web Developer"
+          name="keywords">
+    <meta content="Self-describing landing page"
+          name="description">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link href="css/animation.css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <a href="index.html"><img alt="Rongila logo" class="flex-img" src="img/rongila_.png"></a>
+        <div class="header-burger" id="headerBurger">
+            <span></span>
+        </div>
+        <nav class="navbar" id="headerNavBar">
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#resume">Resume</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#blog">Blog</a>
+            <a href="#contacts">Contact us</a>
+            <button class="themeButton material-icons" id="themeButton">brightness_4</button>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-body">
+            <p class="say-hi">Hello,</p>
+            <h2 class="hero-title">I am Jhon Smith</h2>
+            <h1>Freelance web Designer @Developer</h1>
+            <button class="main-btn" onclick="formPopupBtnShow()">Hire</button>
+            <div class="form-popup-overlay" id="formPopup">
+                <form action="#" class="form-popup" method="#" name="hire-form">
+                    <fieldset>
+                        <legend>If You would like to...</legend>
+                        <input id="name" name="name" pattern="[A-Za-z]{2,}" placeholder="Your Name......" required
+                               type="text">
+                        <input id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                               placeholder="Your Email......"
+                               required type="email">
+                        <label for="budget">Budget:</label>
+                        <input id="budget" name="budget" type="text">
+                        <textarea id="user-message" name="user-message"
+                                  placeholder="A short description of Your project....."></textarea>
+                        <div>
+                            <button class="main-btn" name="form-submit" type="submit">Hire</button>
+                            <button class="main-btn light" onclick="formPopupBtnClose()">Close</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="hero-main-photo">
+            <img alt="John Smith Photo" src="img/Businessman-Transparent.png">
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="container">
+        <h3 class="section-title"><span>About Me</span></h3>
+        <div class="about-info">
+            <img alt="John Smith Photo" src="img/Businessman-Transparent.png">
+            <div class="about-info-text">
+                <h4 class="say-hi">Hello I am Jhon Smith, I am a
+                    freelance web designer or
+                    developer from Nowakhali, Bangladesh.</h4>
+                <p>loream isam Mauris scelerisque ut ipsum
+                    id vulputate. Nulla laoreet, ligula vel congue
+                    ultricies, nibh ipsum egestas nunc, id porta nibh
+                    nunc non felis. Vestibulum nibh urna, lobortis ut
+                    euismod., </p>
+                <dl class="about-contacts">
+                    <dt>Name:</dt>
+                    <dd>Jhon Smith</dd>
+                    <dt>Email:</dt>
+                    <dd><a href="mailto:jhonamith@gmail.com">jhonamith@gmail.com</a>
+                        <i class="material-icons">mail_outline</i>
+                    </dd>
+                    <dt>Phone:</dt>
+                    <dd><a href="tel:0586321470">0586321470</a>
+                        <i class="material-icons">call</i>
+                    </dd>
+                    <dt>Date of Birth:</dt>
+                    <dd>21-Oct-1990</dd>
+                    <dt>Nationality:</dt>
+                    <dd>Bangladesh</dd>
+                    <dt>Adress:</dt>
+                    <dd><a href="https://goo.gl/maps/3bdKfgWRe9VSctqq7">1212 Dhaka, Rampura, Btv Brobon.</a>
+                        <i class="material-icons">location_on</i></dd>
+                </dl>
+                <div class="about-btns">
+                    <button class="main-btn" onclick="formPopupBtnShow()">Hire Me</button>
+                    <a class="main-btn light" download href="http://www.class4exam.com/books/Maintenance%20Manual.pdf">Download
+                        CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="service" id="service">
+    <div class="container">
+        <h3 class="section-title"><span>Service</span></h3>
+        <div class="service-cards">
+            <div>
+                <i class="material-icons ico light">brush</i>
+                <h5>Web Design</h5>
+                <p>loream isam Mauris scelerisque ut ipsum id
+                    Nulla laoreet, ligula vel congue ultricies,
+                    nibh ipsum egestas nunc, id porta </p>
+            </div>
+            <div>
+                <i class="material-icons ico light">desktop_mac</i>
+                <h5>Web Development</h5>
+                <p>loream isam Mauris scelerisque ut ipsum id
+                    Nulla laoreet, ligula vel congue ultricies,
+                    nibh ipsum egestas nunc, id porta </p>
+            </div>
+            <div>
+                <i class="material-icons ico light">edit</i>
+                <h5>Photo Graphy</h5>
+                <p>loream isam Mauris scelerisque ut ipsum id
+                    Nulla laoreet, ligula vel congue ultricies,
+                    nibh ipsum egestas nunc, id porta </p>
+            </div>
+            <div>
+                <i class="material-icons ico light">headset_mic</i>
+                <h5>Marketing</h5>
+                <p>loream isam Mauris scelerisque ut ipsum id
+                    Nulla laoreet, ligula vel congue ultricies,
+                    nibh ipsum egestas nunc, id porta </p>
+            </div>
+            <div>
+                <i class="material-icons ico light">gesture</i>
+                <h5>SEO & SMO</h5>
+                <p>loream isam Mauris scelerisque ut ipsum id
+                    Nulla laoreet, ligula vel congue ultricies,
+                    nibh ipsum egestas nunc, id porta </p>
+            </div>
+            <div>
+                <i class="material-icons ico light">laptop_chromebook</i>
+                <h5>Woo Commerce</h5>
+                <p>loream isam Mauris scelerisque ut ipsum id
+                    Nulla laoreet, ligula vel congue ultricies,
+                    nibh ipsum egestas nunc, id porta </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="counters">
+    <div class="container">
+        <div class="counters-item">
+            <i class="material-icons">favorite</i>
+            <div><span>275</span>+</div>
+            <h6>Happy Customers</h6>
+        </div>
+        <div class="counters-item">
+            <i class="material-icons">trending_up</i>
+            <div><span>74589</span></div>
+            <h6>Working Hours</h6>
+        </div>
+        <div class="counters-item">
+            <i class="material-icons">local_cafe</i>
+            <div><span>4960</span></div>
+            <h6>Coffee Cups</h6>
+        </div>
+        <div class="counters-item">
+            <i class="material-icons">star</i>
+            <div><span>158</span>+</div>
+            <h6>Reviews and ratings</h6>
+        </div>
+    </div>
+</section>
+
+<section class="skills" id="skills">
+    <div class="container">
+        <h3 class="section-title"><span>My Skills</span></h3>
+        <div>
+            <div class="progress">
+                <h4 class="subtitle">Design Skills</h4>
+                <p>loream isam Mauris scelerisque ut ipsum id vulputate.
+                    Nulla laoreet, ligula vel congue ultricies,
+                    nibh ipsum.</p>
+                <h5 class="progress-title">Graphic Design</h5>
+                <div class="progress-bar" data-percent="90" id="progressBar90"></div>
+                <h5 class="progress-title">Photoshop</h5>
+                <div class="progress-bar" data-percent="72" id="progressBar72"></div>
+                <h5 class="progress-title">Illustration</h5>
+                <div class="progress-bar" data-percent="60" id="progressBar60"></div>
+                <h5 class="progress-title">Prient Design</h5>
+                <div class="progress-bar" data-percent="84" id="progressBar84"></div>
+            </div>
+            <div class="progress">
+                <h4 class="subtitle">Coding Skills</h4>
+                <p>loream isam Mauris scelerisque ut ipsum id vulputate.
+                    Nulla laoreet, ligula vel congue ultricies,
+                    nibh ipsum.</p>
+                <h5 class="progress-title">Web Design</h5>
+                <div class="progress-bar" data-percent="90" id="progressBarExt90"></div>
+                <h5 class="progress-title">Web Development</h5>
+                <div class="progress-bar" data-percent="72" id="progressBarExt72"></div>
+                <h5 class="progress-title">Data Analysis</h5>
+                <div class="progress-bar" data-percent="60" id="progressBarExt60"></div>
+                <h5 class="progress-title">Machine Learning</h5>
+                <div class="progress-bar" data-percent="84" id="progressBarExt84"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hire-me">
+    <i class="material-icons">lens</i>
+    <i class="material-icons">lens</i>
+    <div class="container">
+        <i class="material-icons">lens</i>
+        <div class="hire-me-bait">
+            <h4>I’m Avaliable <br>for Freelancer Projects !</h4>
+            <p>Tell me about your project story and project brief</p>
+        </div>
+        <button class="main-btn" onclick="formPopupBtnShow()">Hire Me</button>
+    </div>
+</section>
+
+<section class="resume" id="resume">
+    <div class="container">
+        <h3 class="section-title"><span>Resume</span></h3>
+        <div>
+            <div class="resume-cards">
+                <h4 class="subtitle">Design Skills</h4>
+                <p>loream isam Mauris scelerisque ut ipsum id vulputate.
+                    Nulla laoreet, ligula vel congue ultricies,
+                    nibh ipsum.</p>
+                <ul>
+                    <li class="resume-cards-item">
+                        <p>15 October 2015–27 March 2018</p>
+                        <h5>Professional Art & Web Design</h5>
+                        <p>loream isam Mauris scelerisque ut ipsum id
+                            vulputate. Nulla laoreet, ligula vel congue
+                            ultricies, nibh ipsum.loream isam Mauris scelerisque
+                            ut</p>
+                    </li>
+                    <li class="resume-cards-item">
+                        <p>15 October 2013–27 March 2015</p>
+                        <h5>Higher School Certificate</h5>
+                        <p>loream isam Mauris scelerisque ut ipsum id
+                            vulputate. Nulla laoreet, ligula vel congue
+                            ultricies, nibh ipsum.loream isam Mauris scelerisque
+                            ut</p>
+                    </li>
+                    <li class="resume-cards-item">
+                        <p>24 July 2013</p>
+                        <h5>Secondary School Certificate</h5>
+                        <p>loream isam Mauris scelerisque ut ipsum id
+                            vulputate. Nulla laoreet, ligula vel congue
+                            ultricies, nibh ipsum.loream isam Mauris scelerisque
+                            ut</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="resume-cards">
+                <h4 class="subtitle">Coding Skills</h4>
+                <p>loream isam Mauris scelerisque ut ipsum id vulputate.
+                    Nulla laoreet, ligula vel congue ultricies,
+                    nibh ipsum.</p>
+                <ul>
+                    <li class="resume-cards-item">
+                        <p>20 October 2018</p>
+                        <h5>Freelancer & Themeforest</h5>
+                        <p>loream isam Mauris scelerisque ut ipsum id
+                            vulputate. Nulla laoreet, ligula vel congue
+                            ultricies, nibh ipsum.loream isam Mauris scelerisque
+                            ut</p>
+                    </li>
+                    <li class="resume-cards-item">
+                        <p>22 October 2016–27 March 2018</p>
+                        <h5>Web Developer</h5>
+                        <p>loream isam Mauris scelerisque ut ipsum id
+                            vulputate. Nulla laoreet, ligula vel congue
+                            ultricies, nibh ipsum.loream isam Mauris scelerisque
+                            ut</p>
+                    </li>
+                    <li class="resume-cards-item">
+                        <p>15 October 2013–27 March 2015</p>
+                        <h5>UI/UX Designer</h5>
+                        <p>loream isam Mauris scelerisque ut ipsum id
+                            vulputate. Nulla laoreet, ligula vel congue
+                            ultricies, nibh ipsum.loream isam Mauris scelerisque
+                            ut</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="review">
+    <div class="container">
+        <h3 class="section-title"><span>Testimonials</span></h3>
+        <div class="slider">
+            <div class="review-item">
+                <img alt="Businessman photo" src="img/Businessman-review1.png">
+                <h5>Hrs Shishab</h5>
+                <h6>Creative Director</h6>
+                <p>loream isam Mauris scelerisque ut
+                    ipsum id vulputate. Nulla laoreet,
+                    ligula vel congue ultricies, nibh ipsum.loream
+                    isam Mauris scelerisque utloream isam Mauris scelerisque
+                    ut ipsum id vulputate. Nulla laoreet, </p>
+            </div>
+            <div class="review-item">
+                <img alt="Businessman photo" src="img/Businessman-review0.png">
+                <h5>George Michael</h5>
+                <h6>Designer</h6>
+                <p>loream isam Mauris scelerisque ut
+                    ipsum id vulputate. Nulla laoreet,
+                    ligula vel congue ultricies, nibh ipsum.loream
+                    isam Mauris scelerisque utloream isam Mauris scelerisque
+                    ut ipsum id vulputate. Nulla laoreet, </p>
+            </div>
+            <div class="review-item">
+                <img alt="Businessman photo" src="img/Businessman-review2.png">
+                <h5>Kelly Desert-Eagle</h5>
+                <h6>Bro from my Block</h6>
+                <p>loream isam Mauris scelerisque ut
+                    ipsum id vulputate. Nulla laoreet,
+                    ligula vel congue ultricies, nibh ipsum.loream
+                    isam Mauris scelerisque utloream isam Mauris scelerisque
+                    ut ipsum id vulputate. Nulla laoreet, </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery" id="portfolio">
+    <div class="container">
+        <h3 class="section-title"><span>Latest Project</span></h3>
+        <div class="gallery-menu navbar">
+            <a href="#">All work</a>
+            <a href="#">Web design</a>
+            <a href="#">Graphic design</a>
+            <a href="#">Praint</a>
+            <a href="#">Illustration</a>
+        </div>
+        <div class="gallery-wrapper">
+            <div class="gallery-item first hover">
+                <img alt="Glass Bottles" class="flex-img" src="img/glass-1101141_1280.jpg">
+                <div class="gallery-item-hover">
+                    <i class="material-icons ico light">filter_center_focus</i>
+                    <h5>Graphic & Web Design</h5>
+                </div>
+            </div>
+            <div class="gallery-item second">
+                <div class="hover">
+                    <img alt="Clothes" class="flex-img" src="img/clothing-3221103_1280.jpg">
+                    <div class="gallery-item-hover">
+                        <i class="material-icons ico light">filter_center_focus</i>
+                        <h5>Fashion</h5>
+                    </div>
+                </div>
+                <div class="hover">
+                    <img alt="Furniture" class="flex-img" src="img/architecture-2576906_1280.jpg">
+                    <div class="gallery-item-hover">
+                        <i class="material-icons ico light">filter_center_focus</i>
+                        <h5>Furniture</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item third hover">
+                <img alt="Typewriter" class="flex-img" src="img/typewriter-498204_1280.jpg">
+                <div class="gallery-item-hover">
+                    <i class="material-icons ico light">filter_center_focus</i>
+                    <h5>Typewriter</h5>
+                </div>
+            </div>
+            <div class="gallery-item third hover">
+                <img alt="Copter" class="flex-img" src="img/aerial-photography-3560708_1280.jpg">
+                <div class="gallery-item-hover">
+                    <i class="material-icons ico light">filter_center_focus</i>
+                    <h5>Technique</h5>
+                </div>
+            </div>
+            <div class="gallery-item fourth hover">
+                <img alt="Computer" class="flex-img" src="img/apple-1868496_1280.jpg">
+                <div class="gallery-item-hover">
+                    <i class="material-icons ico light">filter_center_focus</i>
+                    <h5>Technique</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="blog" id="blog">
+    <div class="container">
+        <h3 class="section-title"><span>My Blog</span></h3>
+        <div>
+            <div class="blog-card">
+                <img alt="Glass bottles" src="img/glass-1101141_1280.jpg">
+                <div>
+                    <h5>How to create logo for your business.</h5>
+                    <p>loream isam Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies,
+                        nibh ipsum.loream isam Mauris s utloream isam scelerisque ut ipsum id vulputate. Nulla
+                        laoreet, </p>
+                    <button class="main-btn light">Read More</button>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img alt="Working Desk" src="img/apple-1868496_1280.jpg">
+                <div>
+                    <h5>How to create logo for your business.</h5>
+                    <p>loream isam Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies,
+                        nibh ipsum.loream isam Mauris s utloream isam scelerisque ut ipsum id vulputate. Nulla
+                        laoreet, </p>
+                    <button class="main-btn light">Read More</button>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img alt="Furniture" src="img/architecture-2576906_1280.jpg">
+                <div>
+                    <h5>How to create logo for your business.</h5>
+                    <p>loream isam Mauris scelerisque ut ipsum id vulputate. Nulla laoreet, ligula vel congue ultricies,
+                        nibh ipsum.loream isam Mauris s utloream isam scelerisque ut ipsum id vulputate. Nulla
+                        laoreet, </p>
+                    <button class="main-btn light">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contacts" id="contacts">
+    <div class="container">
+        <h3 class="section-title"><span>Contact Me</span></h3>
+        <div>
+            <ul class="contacts-buttons">
+                <li>
+                    <i class="material-icons ico dark">home</i>
+                    <div>
+                        <a href="mailto:Rapthame@gmail.com">Rapthame@gmail.com</a>
+                        <a href="mailto:AsalamAleikum@gmail.com">AsalamAleikum@gmail.com</a>
+                    </div>
+                </li>
+                <li>
+                    <i class="material-icons ico dark">call</i>
+                    <div>
+                        <a href="tel:0088017123456">0088017123456</a>
+                        <a href="tel:0088019315388">0088019315388</a>
+                    </div>
+                </li>
+                <li>
+                    <i class="material-icons ico dark">location_on</i>
+                    <div>
+                        <a href="https://goo.gl/maps/3bdKfgWRe9VSctqq7">Dhaka 1200, Rampura<br>
+                            Hatirzil, Bangladesh</a>
+                    </div>
+                </li>
+            </ul>
+            <form action="#" class="contacts-form" method="#">
+                <input id="footer-name" name="name" pattern="[A-Za-z]{2,}" placeholder="Your Name......" required
+                       type="text">
+                <input id="footer-email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                       placeholder="Your Email......"
+                       required type="email">
+                <textarea id="footer-user-message" name="user-message"
+                          placeholder="Your Message....."></textarea>
+                <div>
+                    <button class="main-btn" name="form-submit" type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="socials">
+            <a class="fa fa-facebook-f" href="#"></a>
+            <a class="fa fa-twitter" href="#"></a>
+            <a class="fab fa-instagram-square" href="#"></a>
+            <a class="fa fa-dribbble" href="#"></a>
+            <a class="fa fa-pinterest-p" href="#"></a>
+        </div>
+        <p>One Page Personal Protfolio Template By RapThame @ 2018</p>
+    </div>
+</footer>
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/37b6035309.js"></script>
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
