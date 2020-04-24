@@ -1576,7 +1576,8 @@ font-siitemar(--fontSizeTwo);
     }
 
     .logo {
-        display: inline-block;
+        display: block;
+        width: 100px;
     }
 
     .about-info > img {
@@ -1611,12 +1612,12 @@ font-siitemar(--fontSizeTwo);
         max-width: 100%;
     }
 
-    h1 {
-        margin-bottom: 30px;
-    }
-
     :root {
         --fontH1: 2.5em;
+    }
+
+    h1 {
+        margin-bottom: 30px;
     }
 
     .form-popup .main-btn {
