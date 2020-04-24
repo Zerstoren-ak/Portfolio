@@ -1611,16 +1611,12 @@ font-siitemar(--fontSizeTwo);
         max-width: 100%;
     }
 
-    .header .flex-img {
-        width: 40%;
-    }
-
     h1 {
         margin-bottom: 30px;
     }
 
     :root {
-        --fontH1: 3em;
+        --fontH1: 2.5em;
     }
 
     .form-popup .main-btn {
