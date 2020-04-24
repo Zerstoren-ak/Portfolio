@@ -1576,7 +1576,7 @@ font-siitemar(--fontSizeTwo);
     }
 
     .logo {
-        display: block;
+        display: inline-block;
         width: 100px;
     }
 
