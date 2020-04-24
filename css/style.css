@@ -1575,6 +1575,10 @@ font-siitemar(--fontSizeTwo);
         --mainPad: 25px;
     }
 
+    .logo {
+        display: block;
+    }
+
     .about-info > img {
         width: 100%;
     }
