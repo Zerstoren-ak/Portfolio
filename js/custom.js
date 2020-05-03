@@ -32,13 +32,6 @@ window.onscroll = function () {
     }
 };
 
-let progress = document.querySelectorAll('.progress-bar');
-console.log(progress);
-
-for (let i = 0; i < progress.length; i++) {
-
-}
-
 
 function formPopupBtnShow() {
     document.body.classList.add('no-scroll');
