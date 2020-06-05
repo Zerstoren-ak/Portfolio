@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
     <link href="css/animation.css" rel="stylesheet">
+    <script src="js/modernizr-webp.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -361,7 +362,12 @@
         </div>
         <div class="gallery-wrapper">
             <div class="gallery-item first hover">
-                <img alt="Glass Bottles" class="flex-img" src="img/glass-1101141_1280.jpg">
+                <picture>
+                    <source srcset="img/webP/glass-1101141_1280.webp" type="image/webp">
+                    <source srcset="img/glass-1101141_1280.jpg" type="image/jpeg">
+                    <img class="flex-img" src="img/glass-1101141_1280.jpg" alt="Glass Bottles">
+                </picture>
+<!--                <img alt="Glass Bottles" class="flex-img" src="img/glass-1101141_1280.jpg">-->
                 <div class="gallery-item-hover">
                     <i class="material-icons ico light">filter_center_focus</i>
                     <h5>Graphic & Web Design</h5>
@@ -369,14 +375,24 @@
             </div>
             <div class="gallery-item second">
                 <div class="hover">
-                    <img alt="Clothes" class="flex-img" src="img/clothing-3221103_1280.jpg">
+                    <picture>
+                        <source srcset="img/webP/clothing-3221103_1280.webp" type="image/webp">
+                        <source srcset="img/clothing-3221103_1280.jpg" type="image/jpeg">
+                        <img class="flex-img" src="img/clothing-3221103_1280.jpg" alt="Clothes">
+                    </picture>
+<!--                    <img alt="Clothes" class="flex-img" src="img/clothing-3221103_1280.jpg">-->
                     <div class="gallery-item-hover">
                         <i class="material-icons ico light">filter_center_focus</i>
                         <h5>Fashion</h5>
                     </div>
                 </div>
                 <div class="hover">
-                    <img alt="Furniture" class="flex-img" src="img/architecture-2576906_1280.jpg">
+                    <picture>
+                        <source srcset="img/webP/architecture-2576906_1280.webp" type="image/webp">
+                        <source srcset="img/architecture-2576906_1280.jpg" type="image/jpeg">
+                        <img class="flex-img" src="img/architecture-2576906_1280.jpg" alt="Furniture">
+                    </picture>
+<!--                    <img alt="Furniture" class="flex-img" src="img/architecture-2576906_1280.jpg">-->
                     <div class="gallery-item-hover">
                         <i class="material-icons ico light">filter_center_focus</i>
                         <h5>Furniture</h5>
@@ -384,21 +400,36 @@
                 </div>
             </div>
             <div class="gallery-item third hover">
-                <img alt="Typewriter" class="flex-img" src="img/typewriter-498204_1280.jpg">
+                <picture>
+                    <source srcset="img/webP/typewriter-498204_1280.webp" type="image/webp">
+                    <source srcset="img/typewriter-498204_1280.jpg" type="image/jpeg">
+                    <img class="flex-img" src="img/typewriter-498204_1280.jpg" alt="Typewriter">
+                </picture>
+<!--                <img alt="Typewriter" class="flex-img" src="img/typewriter-498204_1280.jpg">-->
                 <div class="gallery-item-hover">
                     <i class="material-icons ico light">filter_center_focus</i>
                     <h5>Typewriter</h5>
                 </div>
             </div>
             <div class="gallery-item third hover">
-                <img alt="Copter" class="flex-img" src="img/aerial-photography-3560708_1280.jpg">
+                <picture>
+                    <source srcset="img/webP/aerial-photography-3560708_1280.webp" type="image/webp">
+                    <source srcset="img/aerial-photography-3560708_1280.jpg" type="image/jpeg">
+                    <img class="flex-img" src="img/aerial-photography-3560708_1280.jpg" alt="Quadro-Copter">
+                </picture>
+<!--                <img alt="Copter" class="flex-img" src="img/aerial-photography-3560708_1280.jpg">-->
                 <div class="gallery-item-hover">
                     <i class="material-icons ico light">filter_center_focus</i>
                     <h5>Technique</h5>
                 </div>
             </div>
             <div class="gallery-item fourth hover">
-                <img alt="Computer" class="flex-img" src="img/apple-1868496_1280.jpg">
+                <picture>
+                    <source srcset="img/webP/apple-1868496_1280.webp" type="image/webp">
+                    <source srcset="img/apple-1868496_1280.jpg" type="image/jpeg">
+                    <img class="flex-img" src="img/apple-1868496_1280.jpg" alt="AppleComputer">
+                </picture>
+<!--                <img alt="Computer" class="flex-img" src="img/apple-1868496_1280.jpg">-->
                 <div class="gallery-item-hover">
                     <i class="material-icons ico light">filter_center_focus</i>
                     <h5>Technique</h5>

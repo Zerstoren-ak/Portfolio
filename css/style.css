@@ -159,6 +159,7 @@ form input,
 form textarea {
     background-color: inherit;
     resize: vertical;
+    font: inherit;
 }
 
 form input::placeholder,
@@ -1005,7 +1006,7 @@ font-siitemar(--fontSizeTwo);
     width: calc(var(--photoHeight) + 500px);
 }
 
-.gallery-item.first > img {
+.gallery-item.first img {
     height: calc(var(--photoHeight) + 300px)
 }
 
@@ -1525,8 +1526,8 @@ font-siitemar(--fontSizeTwo);
         width: 90%;
     }
 
-    .gallery-item > img,
-    .gallery-item div > img {
+    .gallery-item img,
+    .gallery-item div img {
         height: calc(var(--photoHeight) * 2);
     }
 
