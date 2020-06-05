@@ -1,3 +1,5 @@
+@import "animation.css";
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -1408,7 +1410,7 @@ font-siitemar(--fontSizeTwo);
         align-self: flex-end;
     }
 
-    .hero-main-photo > img {
+    .hero-main-photo img {
         width: 100%;
         height: auto;
         display: block;

@@ -15,7 +15,6 @@
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
-    <link href="css/animation.css" rel="stylesheet">
     <script src="js/modernizr-webp.js"></script>
     <title>Portfolio</title>
 </head>
@@ -68,7 +67,12 @@
             </div>
         </div>
         <div class="hero-main-photo">
-            <img alt="John Smith Photo" src="img/Businessman-Transparent.png">
+            <picture>
+                <source srcset="img/webP/Businessman-Transparent.webp" type="image/webp">
+                <source srcset="img/Businessman-Transparent.png" type="image/jpeg">
+                <img src="img/glass-1101141_1280.jpg" alt="John Smith Photo">
+            </picture>
+<!--            <img alt="John Smith Photo" src="img/Businessman-Transparent.png">-->
         </div>
     </div>
 </section>
