@@ -1,3 +1,4 @@
+@import "fonts/google-fonts.css";
 @import "animation.css";
 
 html, body, div, span, applet, object, iframe,
@@ -276,6 +277,7 @@ form textarea {
 .say-hi {
     font-size: var(--fontSizeThree);
     font-weight: 500;
+    font-family: var(--ffText);
 }
 
 .hero-title {
