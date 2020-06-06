@@ -1,4 +1,3 @@
-@import "fontawesome.min.css";
 @import "animation.css";
 
 html, body, div, span, applet, object, iframe,
@@ -506,6 +505,12 @@ h1 {
 .about a[href^=mail]:hover ~ .material-icons,
 .about a[href^=tel]:hover ~ .material-icons,
 .about a[href*=maps]:hover ~ .material-icons {
+    color: inherit;
+}
+
+.about a[href^=mail]:hover ~ .material-icons,
+.about a[href^=tel]:hover ~ .material-icons,
+.about a[href*=maps]:hover ~ .fas {
     color: inherit;
 }
 
