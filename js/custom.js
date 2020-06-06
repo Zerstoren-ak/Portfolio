@@ -1,4 +1,10 @@
 // window.addEventListener("scroll")
+"use strict";
+
+const headerNavBar = document.getElementById(`headerNavBar`);
+const headerBurger = document.getElementById(`headerBurger`);
+const formPopup = document.getElementById(`formPopup`);
+const themeButton = document.getElementById(`themeButton`);
 
 themeButton.onclick = function () {
     document.documentElement.classList.toggle('light');
@@ -36,26 +42,23 @@ window.onscroll = function () {
 function formPopupBtnShow() {
     document.body.classList.add('no-scroll');
     formPopup.classList.add('show');
-};
+}
 
 function formPopupBtnClose() {
     document.body.classList.remove('no-scroll');
     formPopup.classList.remove('show');
-};
+}
 
-headerBurger.onclick = function () {
-    headerBurger.classList.toggle('active');
-    headerNavBar.classList.toggle('active');
-    document.body.classList.toggle('menu-no-scroll');
-};
-
-headerNavBar.onclick = function () {
-    //if (window.matchMedia("(max-width: 767.98px)").matches) {
-        headerBurger.classList.toggle('active');
-        headerNavBar.classList.toggle('active');
+function collapse(burger, navbar) {
+    return function () {
+        burger.classList.toggle('active');
+        navbar.classList.toggle('active');
         document.body.classList.toggle('menu-no-scroll');
-    //};
-};
+    }
+}
+
+headerBurger.onclick = collapse(headerBurger, headerNavBar);
+headerNavBar.onclick = collapse(headerBurger, headerNavBar);
 
 //slick-slider-settings jQuery
 

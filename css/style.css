@@ -928,7 +928,7 @@ font-siitemar(--fontSizeTwo);
     margin-top: 47.5px;
 }
 
-.review-item > img {
+.review-item img {
     width: 95px;
     height: 95px;
     object-fit: contain;
@@ -1084,7 +1084,7 @@ font-siitemar(--fontSizeTwo);
     transition: .3s ease;
 }
 
-.blog-card > img {
+.blog-card img {
     width: 100%;
     margin-bottom: 20px;
 }
