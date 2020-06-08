@@ -1187,14 +1187,14 @@ font-siitemar(--fontSizeTwo);
     order: 1;
 }
 
-.socials a {
+.socials > a {
     width: 25px;
     height: 25px;
     margin-left: 20px;
     transition: .3s ease;
 }
 
-.socials a:hover {
+.socials > a:hover {
     color: var(--mainDesClr);
 }
 
