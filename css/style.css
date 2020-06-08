@@ -454,7 +454,7 @@ h1 {
     align-items: center;
 }
 
-.about-info > img {
+.about-info img {
     width: 370px;
     background-color: var(--bgMain);
     border: 10px solid var(--mainDesClr);
