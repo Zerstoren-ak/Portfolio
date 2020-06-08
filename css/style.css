@@ -1,7 +1,8 @@
-@import "fonts/google-fonts.css";
-@import "fonts/material-icons.css";
-@import "animation.css";
-@import "fonts/fontawesome.min.css";
+@import "./google-fonts.css";
+@import "./material-icons.css";
+@import "./animation.css";
+@import "./fontawesome.min.css";
+@import "./brands.min.css";
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
